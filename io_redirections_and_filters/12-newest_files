@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -print | xargs ls -lt | head -n 10
+ls -1t | head -10
