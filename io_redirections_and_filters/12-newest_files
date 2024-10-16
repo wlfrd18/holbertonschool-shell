@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time-style=long-iso | grep '^-' | head -n 11 | tail -n 10 | awk '{print $9}'
+ls -lt | tail -n 10
