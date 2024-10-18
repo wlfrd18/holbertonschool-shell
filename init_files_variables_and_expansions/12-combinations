@@ -1,0 +1,4 @@
+#!/bin/bash
+#!/bin/bash
+for i in {a..z}; do for j in {a..z}; do [ "$i$j" != "oo" ] && echo $i$j; done; done
+
